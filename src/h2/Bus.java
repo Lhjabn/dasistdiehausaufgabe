@@ -57,5 +57,9 @@ public class Bus {
                 }
             }
         }
+        this.passengers.removeAll(umstieg);
+        for(Passenger p : umstieg) {
+            otherBus.enterBus(p);
+        }
     }
 }

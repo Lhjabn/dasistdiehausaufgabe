@@ -31,7 +31,7 @@ public class PrioListe {
         myList.remove(0);
         return p;
     }
-    public int getPositon(Patient p) {
+    public int getPosition(Patient p) {
         return myList.indexOf(p);
     }
 }
